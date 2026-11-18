@@ -70,4 +70,4 @@ BIP32, BIP39, BIP65, BIP141, BIP143, BIP173, BIP340, Miniscript (BIP379), NIP-01
 
 ## Informative references
 
-BIP43, BIP44, BIP46, NIP-46, NIP-69, NIP-99, defiads, OrangeCheck. Links are in the [README](../README.md) and in each document.
+BIP43, BIP44, BIP46, NIP-46, NIP-69, NIP-99, defiads, OrangeCheck. Links, and the dates they were last checked, are in [REFERENCES.md](../REFERENCES.md).

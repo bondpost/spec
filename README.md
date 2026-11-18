@@ -4,7 +4,7 @@ Bondpost lets a Nostr identity prove it has bitcoin locked until a future block 
 
 > **Status: Draft, protocol version 1.** Nothing here is stable. Event kind `38421` and derivation purpose `8421'` are placeholders that nothing has registered. Do not lock mainnet coins under this draft.
 
-This repository holds the **protocol**: the rules that any implementation, in any language, has to follow to interoperate. The reference implementation (the `bondpost-core` library, the CLI, the verifier service, the relay plugin and the board) lives in the separate `bondpost` repository.
+This repository holds the **protocol**: the rules that any implementation, in any language, has to follow to interoperate. The reference implementation (the `bondpost-core` library, the CLI, the verifier service, the relay plugin and the board) lives in the separate [`bondpost`](https://github.com/bondpost/bondpost) repository.
 
 ## Documents
 
@@ -23,6 +23,7 @@ Supporting material:
 
 - [`test-vectors/`](test-vectors/): fixed inputs and expected outputs. Every conforming implementation must pass them.
 - [`decisions/`](decisions/): open and settled design decisions (D-1 to D-6), with the reasoning behind each one.
+- [`REFERENCES.md`](REFERENCES.md): the BIPs, NIPs and other sources the spec relies on, and when each was checked.
 - [`CHANGELOG.md`](CHANGELOG.md): spec versions and breaking changes.
 - [`CONTRIBUTING.md`](CONTRIBUTING.md): how changes are proposed and how a document moves from Draft to Final.
 
@@ -30,8 +31,8 @@ A draft NIP will be extracted from documents 02 to 04 for community review befor
 
 ## What this repository is not
 
-- **Not the implementation.** CLI commands, the verifier HTTP API, relay plugin configuration and wallet storage formats are documented in the `bondpost` repository.
-- **Not the project plan.** Business requirements, user stories and milestones also live with the implementation.
+- **Not the implementation.** CLI commands, the verifier HTTP API, relay plugin configuration and wallet storage formats are documented in the [`bondpost`](https://github.com/bondpost/bondpost) repository.
+- **Not the project plan.** Business requirements, user stories, architecture, test plan and milestones live in the implementation repository's [`docs/`](https://github.com/bondpost/bondpost/tree/main/docs).
 
 ## Prior art and credit
 

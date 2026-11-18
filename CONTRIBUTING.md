@@ -1,5 +1,9 @@
 # Contributing
 
+## Licence of contributions
+
+This repository is CC0-1.0. By opening a pull request, you dedicate your contribution to the public domain under the same terms.
+
 ## Proposing a change
 
 1. Open an issue that describes the problem before you write spec text. This applies to anything that changes behaviour.

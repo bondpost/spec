@@ -9,3 +9,4 @@ Spec releases are tagged `spec-vMAJOR.MINOR.PATCH`.
 ## Unreleased
 
 - Initial draft of protocol version 1, documents 00 to 07, taken from the 17 November 2026 technical specification.
+- Licensed under CC0-1.0 (decision D-5).

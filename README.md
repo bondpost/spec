@@ -39,4 +39,4 @@ The design comes from [defiads](https://github.com/defiads/defiads) by Tamas Blu
 
 ## Licence
 
-Not yet chosen; see [decision D-5](decisions/D-5-licence.md).
+This specification and its test vectors are dedicated to the public domain under [CC0 1.0 Universal](LICENSE). You may copy, adapt and re-publish them, including in a NIP or BIP, without asking. See [decision D-5](decisions/D-5-licence.md).
